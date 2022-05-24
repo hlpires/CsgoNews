@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React from 'react'
+import {Routes, BrowserRouter as Router,Route, Link} from 'react-router-dom';
+import {Layout, Typography, Space} from 'antd';
+import {Navbar,CsgoBala,Exchanges,Home,Header} from './components';
 import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+     <Layout>
+       <Header/>
+         
+       <Layout>
+        <div className='main'>
+          <div className='navbar'> <Navbar/> </div>         
+        </div>
+
+        </Layout>
+
+
+        <div className='footer'>
+          <Typography level = {5} style= {{color:"white",textAlign:"center"}}>
+          CsgoBala <br/>
+          All rights reserved
+          </Typography>
+          <Space>
+            <Link to= "/home">Home</Link>
+            <Link to= "/csgobala">csgoBala</Link>
+            <Link to= "/exchanges">Exchanges</Link>
+          </Space>        
+        </div>
+
+      </Layout>
     </div>
   );
 }
 
-export default App;
+export default App
