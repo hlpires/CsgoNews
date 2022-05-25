@@ -8,10 +8,9 @@ const Navbar = () => {
   return (
     <div className="nav-container">
     <div className = "logo-container">
-      <Avatar src={icon} size= "Large"/>  
-        <Link to="./">csgoBala</Link>      
-      {/*<Button className = 'menu-control-container'>
-  </Button>`*/}
+      <Avatar src={icon} size={64} />  
+        <Link to="./">csgoNEWS</Link>      
+      
       </div>
       <Menu theme="dark">
         <Menu.Item icon={<HomeOutlined/>}>
