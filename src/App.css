@@ -75,9 +75,9 @@ a:hover{
 }
 .headericons{
     padding: 10px;
-    height: 80px;
-    
-    border:2px solid black;
+    height: 50px;
+
+   
   
 }
 .headeritems{
@@ -87,13 +87,35 @@ align-items: center;
  background-color: rgb(0, 21, 41);
  width: 100%;
  justify-content: center;
- 
+
 }
 .header{
-display: flex;
-
-    
+display: flex;   
 }
+.headertext{
+    width: 300px;
+  align-items: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+.textHeader{
+    color: white;
+    
+
+}
+.subtextHeader{
+    color: white;
+   margin-left: -115px;
+    margin-top: 30px;
+    font-size: 9px;
+
+}
+#shooter{
+    height: 100px;
+}
+
 @media screen and (max-width:1300px){
     .main{
         margin-left: 50px;
