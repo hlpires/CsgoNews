@@ -10,7 +10,7 @@ const createRequest =(url) => ({url,headers: csnewsApiHeaders})
 
 export const csnewsApi = createApi({
     reducerPath:'csnewsApi',
-    baseQuery:fecthBaseQuery({baseUrl}),
+    baseQuery:fecthBaseQuery =>({baseUrl}),
     endpoints:(builder) => ({getNews: builder.query({
         query:() => createRequest('/Home')
     })
