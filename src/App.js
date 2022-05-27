@@ -13,6 +13,7 @@ const App = () => {
         <div className='main'>
           <div className='navbar'> <Navbar/> </div>         
         </div>
+        <Home/>
 
         </Layout>
 

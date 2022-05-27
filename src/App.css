@@ -122,6 +122,9 @@ display: flex;
 #shooter{
     height: 100px;
 }
+.news{
+    padding: 500px;
+}
 
 @media screen and (max-width:1300px){
     .main{
