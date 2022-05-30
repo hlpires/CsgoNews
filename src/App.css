@@ -125,17 +125,35 @@ width: 100%;
 }
 .news{
     justify-content: center;
-    padding: 50px;
+    padding-top: 150px;
 }
 .newsformat{
     border: 2px solid black;
     width: 1200px;
+    height: 500px;
     margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
 }
 
 .imageteam{
-    width: 200px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+    display: flex;
 
+}
+.versus{
+width: 300px;
+height: 200px;
+border: 2px solid black;
+align-content: center;
+text-align: center;
+font-size: 30px;
+display: flex;
+padding: 100px;
 }
 
 @media screen and (max-width:1300px){

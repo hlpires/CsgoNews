@@ -35,15 +35,21 @@ const Home = () => {
     <Title level = {3} className = 'heading'>Counter Strike Global Ofensive NEWS</Title>
 
     <Row className = 'news'>
-      <div className = 'newsformat'>
-        <Col span = {3} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
-        <Col span = {3} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
-        <Col span = {3} >< Statistic title= ' Resultado da partida' value= {vitoria + ' x ' + perdedor} /> </Col> 
+      
+        <Col span = {2} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
+        <Col span = {2} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
+        
+    </Row>
+
+    <div className = 'newsformat'>
+    
         <img  className ="imageteam"  src={imagem} alt="" />
+
+        <div span = {3} >< Statistic title= ' Resultado da partida' className = 'versus' value= {vitoria + ' x ' + perdedor} /> </div>
         <img className ="imageteam" src={imagem2} alt="" />   
       </div>
       
-    </Row>
+   
     </>
   )
 }
