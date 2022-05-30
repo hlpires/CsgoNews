@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, BrowserRouter as Router,Route, Link} from 'react-router-dom';
+import {Routes,Route, Link} from 'react-router-dom';
 import {Layout, Typography, Space} from 'antd';
 import {Navbar,CsgoBala,Exchanges,Home,Header} from './components';
 import './App.css';
@@ -24,6 +24,7 @@ const App = () => {
           All rights reserved
           </Typography>
           <Space>
+            
             <Link to= "/home">Home</Link>
             <Link to= "/csgobala">csgoBala</Link>
             <Link to= "/exchanges">Exchanges</Link>
