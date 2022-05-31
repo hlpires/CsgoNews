@@ -45,7 +45,7 @@ const Home = () => {
     
         <img  className ="imageteam"  src={imagem} alt="" />
 
-        <div span = {3} ><h1 className = 'versus' >= ' Resultado da partida' {vitoria + ' x ' + perdedor} </h1> </div>
+        <div span = {3} ><h1 className = 'versus' > {vitoria + ' x ' + perdedor} </h1> </div>
         <img className ="imageteam" src={imagem2} alt="" />   
       </div>
       
