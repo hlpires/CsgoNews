@@ -8,15 +8,18 @@ const {Title} = Typography;
 
 var numerodejogos; 
 
+
 const Home = () => {
 
   const {data, isFetching} = useGetNewsQuery();
-  const vitoria = data?.data?.[0]?.score_won;
+  const vitoria = [data?.data?.[0]?.score_won,data?.data?.[1]?.score_won,data?.data?.[2]?.score_won]
   const perdedor = data?.data?.[0]?.score_lose;
-  const imagem = data?.data?.[0]?.team_won?.image_url;
+  const imagem = data?.data?.[0].team_won?.image_url;
   const imagem2 = data?.data?.[0]?.team_lose?.image_url;
   const vencedor = data?.data?.[0]?.team_won?.title;
   const nimagem = data?.data?.[0]?.team_won?.image_url;
+
+
 
   console.log(data);
 
@@ -36,8 +39,23 @@ const Home = () => {
 
     <Row className = 'news'>
       
-        <Col span = {2} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
-        <Col span = {2} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
+        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
+        <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
+        
+    </Row>
+
+    <div className = 'newsformat'>
+    
+        <img  className ="imageteam"  src={imagem} alt="" />
+
+        <div span = {3} ><h1 className = 'versus' > {vitoria[1] + ' x ' + perdedor} </h1> </div>
+        <img className ="imageteam" src={imagem2} alt="" />   
+      </div>
+      
+      <Row className = 'news'>
+      
+        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
+        <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
         
     </Row>
 
@@ -48,6 +66,38 @@ const Home = () => {
         <div span = {3} ><h1 className = 'versus' > {vitoria + ' x ' + perdedor} </h1> </div>
         <img className ="imageteam" src={imagem2} alt="" />   
       </div>
+
+      <Row className = 'news'>
+      
+        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
+        <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
+        
+    </Row>
+
+    <div className = 'newsformat'>
+    
+        <img  className ="imageteam"  src={imagem} alt="" />
+
+        <div span = {3} ><h1 className = 'versus' > {vitoria + ' x ' + perdedor} </h1> </div>
+        <img className ="imageteam" src={imagem2} alt="" />   
+      </div>
+
+      <Row className = 'news'>
+      
+        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos}/> </Col>
+        <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor}/> </Col>
+        
+    </Row>
+
+    <div className = 'newsformat'>
+    
+        <img  className ="imageteam"  src={imagem} alt="" />
+
+        <div span = {3} ><h1 className = 'versus' > {vitoria + ' x ' + perdedor} </h1> </div>
+        <img className ="imageteam" src={imagem2} alt="" />   
+      </div>
+      
+      
       
    
     </>
