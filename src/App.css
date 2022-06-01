@@ -16,7 +16,7 @@
 a:hover{
     color: var(--pink) !important;
 }
-
+@media screen and (min-width:1401px){
 .app{
     display: flex;
     overflow: hidden;
@@ -201,7 +201,7 @@ display: flex;
 margin-top: 160px;
 justify-content: center;
 }
-
+}
 @media screen and (max-width:1400px){
   
 .footer {
@@ -327,7 +327,7 @@ width: 100%;
 }
 .newsformat{
    
-    width: 600px;
+    width: 500px;
     height: 400px;
     margin-top: 0px;
     justify-content: center;
