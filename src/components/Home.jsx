@@ -17,20 +17,17 @@ const Home = () => {
   const imagem = [data?.data?.[0].team_won?.image_url,data?.data?.[1].team_won?.image_url,data?.data?.[2].team_won?.image_url,data?.data?.[3].team_won?.image_url,data?.data?.[4].team_won?.image_url]
   const imagem2 = [data?.data?.[0]?.team_lose?.image_url,data?.data?.[1]?.team_lose?.image_url,data?.data?.[2]?.team_lose?.image_url,data?.data?.[3]?.team_lose?.image_url,data?.data?.[4]?.team_lose?.image_url]
   const vencedor = [data?.data?.[0]?.team_won?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_won?.title]
-  const nimagem = [data?.data?.[0]?.team_won?.image_url,data?.data?.[1]?.team_won?.image_url,data?.data?.[2]?.team_won?.image_url,data?.data?.[3]?.team_won?.image_url,data?.data?.[4]?.team_won?.image_url]
+  const datajogo = [data?.data?.[0]?.played_at,data?.data?.[1]?.played_at,data?.data?.[2]?.played_at,data?.data?.[3]?.played_at,data?.data?.[4]?.played_at]
+  
 
 
 
-  console.log(data);
+  console.log(datajogo);
 
   if( isFetching){
     return "loading..."
   }
-  if(perdedor == 1 ){
-    numerodejogos  = 3;
-  }else{
-    numerodejogos  = 2;
-  }
+  
 
   return (
   <>
@@ -39,7 +36,7 @@ const Home = () => {
 
     <Row className = 'news'>
       
-        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos[0]}/> </Col>
+        <Col span = {6} >< Statistic title= ' Data do jogo ' value= {datajogo[0]}/> </Col>
         <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor[0]}/> </Col>
         
     </Row>
@@ -54,7 +51,7 @@ const Home = () => {
       
       <Row className = 'news'>
       
-        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos[1]}/> </Col>
+        <Col span = {6} >< Statistic title= ' Data do jogo  ' value= {datajogo[1]}/> </Col>
         <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor[1]}/> </Col>
         
     </Row>
@@ -64,12 +61,12 @@ const Home = () => {
         <img  className ="imageteam"  src={imagem[1]} alt="" />
 
         <div span = {3} ><h1 className = 'versus' > {vitoria[1] + ' x ' + perdedor[1]} </h1> </div>
-        <img className ="imageteam" src={imagem2[1]} alt="" />   
+        <img  className ="imageteam"  src={imagem2[1]} alt="" />
       </div>
 
       <Row className = 'news'>
       
-        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos[2]}/> </Col>
+        <Col span = {6} >< Statistic title= ' Data do jogo  ' value= {datajogo[2]}/> </Col>
         <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor[2]}/> </Col>
         
     </Row>
@@ -84,7 +81,7 @@ const Home = () => {
 
       <Row className = 'news'>
       
-        <Col span = {6} >< Statistic title= ' Numero de jogos ' value= {numerodejogos[3]}/> </Col>
+        <Col span = {6} >< Statistic title= ' Data do jogo  ' value= {datajogo[3]}/> </Col>
         <Col span = {6} >< Statistic title= ' Time vencedor ' value= {vencedor[3]}/> </Col>
         
     </Row>

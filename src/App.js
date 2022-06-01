@@ -1,7 +1,8 @@
 import React from 'react'
 import {Routes,Route, Link} from 'react-router-dom';
 import {Layout, Typography, Space} from 'antd';
-import {Navbar,CsgoBala,Exchanges,Home,Header} from './components';
+import {Navbar,CsgoBala,Exchanges,Home,Header,Noticias} from './components';
+
 import './App.css';
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
         <div className='main'>
           <div className='navbar'> <Navbar/> </div>         
         </div>
+        <Noticias/>
         <Home/>
+
 
         </Layout>
 
