@@ -15,19 +15,7 @@ const Navbar = () => {
         </Link>      
       
       </div>
-      <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined/>}>
-          <Link to="/home">Home</Link>
-        </Menu.Item>
-        <Menu.Item icon={<HourglassOutlined/>}>
-          <Link to="/csgobala">Hora da Bala</Link>
-          </Menu.Item>
-
-          <Menu.Item icon={<BankOutlined/>}>
-          <Link to="/exchanges">Melhores Odds</Link>
-          </Menu.Item>
-          
-      </Menu>
+  
     </div>  
   )
 }
