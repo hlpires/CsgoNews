@@ -49,6 +49,10 @@ a:hover{
     font-size: 25px;
     
 }
+.csimage{
+    width: 19px;
+}
+
 
 .logo-container{
     background-color: #001529;
@@ -202,7 +206,7 @@ margin-top: 160px;
 justify-content: center;
 }
 .csimage{
-    width: 10px;
+    width: 50px!important;
 }
 
 }
