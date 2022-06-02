@@ -348,13 +348,13 @@ width: 100%;
 }
 .noticias{
     margin-top: 15vh;
-    width: 420px;
-    margin-right: 10px;
+    width: 320px;
+    margin-right: 70px;
     right: 0;
     height: 810px;
     justify-content: center;
     position: fixed;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
     background-color: rgba(238, 241, 245, 0.925);
    
 }
