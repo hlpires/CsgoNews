@@ -395,7 +395,7 @@ justify-content: center;
 
 }
 
-@media screen and (max-width:1024px ) and (min-width:400px){
+@media screen and (max-width:1024px ) and (min-width:600px){
     .app{
         display: flex;
         overflow: hidden;
@@ -426,21 +426,25 @@ justify-content: center;
     }
     
     .navbarHeader{
-        margin-left: 20px;
+        margin-left: 0px;
         color: white;
         font-size: 25px;
         
     }
     
     .logo-container{
-        background-color: transparent;
-        
+        background-color: #001529;
+        display:block;
         padding: 20px;
         align-items: center;
-        width: 0px;
+        width: 100vw;
+        height:140px;
+        border: 2px solid black;
+        position: relative;
         
         
     }
+   
     .logo{
         margin:0 0 0 15px;
     }
