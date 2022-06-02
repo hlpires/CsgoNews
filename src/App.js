@@ -12,7 +12,7 @@ const App = () => {
          
        <Layout>
         <div className='main'>
-          <div className='navbar'> <Navbar/> </div>         
+          <div className='navbar'></div>         
         </div>
         <Noticias/>
         <Home/>
