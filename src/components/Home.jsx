@@ -32,7 +32,7 @@ const Home = () => {
   return (
   <>
   
-    <Title level = {3} className = 'heading'>Counter Strike Global Ofensive NEWS</Title>
+    <Title level = {3} className = 'heading'></Title>
 
     <Row className = 'news'>
       

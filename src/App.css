@@ -613,28 +613,35 @@ justify-content: center;
             padding: 20px;
         }
         .nav-container{
-            position: fixed;
+            
+            position:fixed;
             left: 0;
-            width: 00px;
-            height: 00%;
+            width: 100%;
+            height: 28vh;
             margin: 0px;
             background-color: rgb(0, 21, 41);
         }
+     
         .navbarHeader{
-            margin-left: 20px;
+            margin-top: 02vh;
+            margin-left: 10vw;
             color: white;
             font-size: 25px;
             
         }
         
         .logo-container{
-            background-color: #001529;
+            margin-top: 08vh;
+            background-color: black;
             display: flex;
             padding: 20px;
             align-items: center;
             width: 100%;
-            height: 00px;
+            height: 20vh;
+            padding-top:0vw;
+            
         }
+     
         .logo{
             margin:0 0 0 15px;
         }
@@ -703,12 +710,10 @@ justify-content: center;
         }
         .news{
             justify-content: center;
-            
-          
             border: 1px solid #c7cdd3d8;
             display: flex;
             align-self:center;
-            width: 200px;
+            width: 90vw;
             margin-top: 130px;
           
         }
