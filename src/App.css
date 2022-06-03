@@ -360,7 +360,7 @@ justify-content: center;
 }
 
 
-@media screen and (max-width:501px){
+@media screen and (max-width:699px){
         .app{
             display: flex;
             overflow: hidden;
@@ -381,7 +381,7 @@ justify-content: center;
         }
         
         .csgoimage{
-            width: 20vw;
+            width: 13vw;
             margin-left: 10vw;
         }
         .headerText{
@@ -411,6 +411,7 @@ justify-content: center;
         display: flex;
         position: fixed;
         width: 100%;
+        z-index: 1;
         }
         .Art{
             width: 500px;
@@ -444,7 +445,7 @@ justify-content: center;
             display: flex;
             align-self:center;
             width: 100vw;
-            margin-top:190px;
+            margin-top:40px;
           
         }
         .newsformat{
@@ -462,10 +463,10 @@ justify-content: center;
             box-shadow: rgba(0, 0, 0, 0.15) 20.95px 20.95px 2.6px;
         }
         .noticiasimage{
-            width: 260px;
-            height: 25vh;
+            width: 100%;
+            height: 160px;
             
-            display: flex;
+           
             position: relative;
         }
         .noticias{
@@ -477,15 +478,14 @@ justify-content: center;
             position: relative;
             box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
             background: linear-gradient(110deg, #782ab1 60%, #412eae 60%);
-            
+           
         }
         .e-sports{
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-            position: flex;
-            align-self: center;
-            width: 260px;
+            
+            width: 60vw;
             margin-top: 60px;
-            margin-left:15vw;
+            margin-left:20vw;
             cursor: pointer;
             height: 240px;
            
