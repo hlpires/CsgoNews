@@ -7,7 +7,7 @@ const Header = () => {
   return (
   <Menu className="header">
     <div className="headeritems"> 
-    <img src={Cslogo}  classname = "csimage" alt="" />
+    
     </div>
   </Menu>
 );
