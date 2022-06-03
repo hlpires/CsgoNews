@@ -74,7 +74,17 @@ display: flex;
 position: fixed;
 width: 100%;
 }
-
+.Art{
+    width: 500px;
+    height: 600px;
+    left: 0;
+    
+    position: fixed;
+    margin-top: 140px;
+    background-image: url(./images/art.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
 .textHeader{
     color: white;
     
