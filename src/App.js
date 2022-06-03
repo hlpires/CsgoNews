@@ -16,10 +16,12 @@ const App = () => {
         </div>
         <Noticias/>
         <Art/>
+        
         <Home/>
-
+        
 
         </Layout>
+        
 
 
         <div className='footer'>

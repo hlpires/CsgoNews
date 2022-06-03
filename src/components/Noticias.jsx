@@ -19,7 +19,7 @@ const Noticias = () => {
          os jogadores de Counter-Strike: Global Offensive usaram as redes sociais para comemorar.
           </p>
     </div>
-    <div className = "e-sports">
+    <div id = 'patsi' className = "e-sports">
     <img className = 'noticiasimage' src={Patsi} alt=""></img>
       <p className = "noticiastext">
         O Spirit está no Legends Stage do PGL Major 
