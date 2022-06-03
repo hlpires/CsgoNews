@@ -100,13 +100,14 @@ width: 100%;
 }
 .news{
     justify-content: center;
-    
-  
-    border: 1px solid #c7cdd3d8;
+    border: 1px solid black;
     display: flex;
     align-self:center;
     width: 800px;
     margin-top: 130px;
+    color: white;
+    font-weight: 900;
+    
   
 }
 .newsformat{
