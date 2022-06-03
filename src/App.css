@@ -381,13 +381,13 @@ justify-content: center;
         }
         
         .csgoimage{
-            width: 80px;
-            margin-left: 156px;
+            width: 20vw;
+            margin-left: 10vw;
         }
         .headerText{
             display:flex;
             color: white;
-            width: 665px;
+            width: 60vw;
             
             background-color: red;
             margin-left: 20px;
@@ -443,13 +443,13 @@ justify-content: center;
             border: 1px solid #c7cdd3d8;
             display: flex;
             align-self:center;
-            width: 600px;
+            width: 100vw;
             margin-top:190px;
           
         }
         .newsformat{
            
-            width: 600px;
+            width: 100vw;
             height: 400px;
             margin-top: 0px;
             justify-content: center;
@@ -463,18 +463,17 @@ justify-content: center;
         }
         .noticiasimage{
             width: 260px;
-            height: 140px;
+            height: 25vh;
             
             display: flex;
             position: relative;
         }
         .noticias{
             margin-top:150px;
-            width: 80vw;
-            margin-right: 10vw;
-            
+            width: 100vw;
+            justify-content: center;
+            align-self: center;
             height: 700px;
-            
             position: relative;
             box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
             background: linear-gradient(110deg, #782ab1 60%, #412eae 60%);
@@ -486,7 +485,7 @@ justify-content: center;
             align-self: center;
             width: 260px;
             margin-top: 60px;
-            margin-left:20px;
+            margin-left:15vw;
             cursor: pointer;
             height: 240px;
            
@@ -499,8 +498,9 @@ justify-content: center;
            color: white;
             background-color: transparent;
             padding: 5px;
-            margin: 2px;
+            margin: 0px;
             font-weight: 800;
+            
         }
         #patsi{
             width: 0px!important;
@@ -510,15 +510,15 @@ justify-content: center;
         }
         .imageteam{
         
-            width: 160px;
-            height: 160px;
-            margin-top:120px;
+            width: 100px;
+            height: 100px;
+            margin-top:140px;
             display: flex;
         
         
         }   
         .versus{
-        width: 200px;
+        width: 40vw;
         height: 100px;
         
         color: white;
@@ -528,9 +528,7 @@ justify-content: center;
         margin-top: 160px;
         justify-content: center;
         }
-        .csimage{
-            width: 50px!important;
-        }
+       
     }
     
    
