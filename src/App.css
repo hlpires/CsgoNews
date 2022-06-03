@@ -264,10 +264,9 @@ justify-content: center;
         height: 100px;
     }
     .news{
-        justify-content: center;
-        
-      
-        border: 1px solid #c7cdd3d8;
+        justify-content: center;    
+        font-weight: 900;
+        border: 1px solid black;
         display: flex;
         align-self:center;
         width: 600px;
@@ -440,9 +439,8 @@ justify-content: center;
         }
         .news{
             justify-content: center;
-            
-          
-            border: 1px solid #c7cdd3d8;
+            font-weight: 900;
+            border: 1px solid black;
             display: flex;
             align-self:center;
             width: 100vw;
