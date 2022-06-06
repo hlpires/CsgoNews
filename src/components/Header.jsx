@@ -1,5 +1,5 @@
 import React from 'react'
-import Cslogo from '../images/cslogo.jpg'
+import Cslogo from '../images/cslogo.png'
 import { PageHeader, Menu, Dropdown, Button, Tag, Typography, Row} from 'antd';
 
 
