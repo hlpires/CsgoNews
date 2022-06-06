@@ -1,5 +1,6 @@
 # Hora da Bet
-![cslogo](https://user-images.githubusercontent.com/60366579/172224217-dc2d89ea-58b8-4d06-bad3-3878cc8039fc.jpg)
+
+![markdownlogo](https://user-images.githubusercontent.com/60366579/172224851-07f6a89a-a6ae-4655-9b1f-e85a2973c198.png)
 
 
 ## Requirements
@@ -13,7 +14,14 @@ A web browser for visualize the website, documents and data: Google Chrome, Appl
 - React
 
 ## Project Notes
+A website who the user will be able to:
 
+- See odds for betting in Counter Strike games
+- See the history of clashes between teams over all
+
+-
+-
+-
 ## Deployment
  
 ## Files & directories
