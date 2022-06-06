@@ -18,12 +18,18 @@ A website who the user will be able to:
 
 - See odds for betting in Counter Strike games
 - See the history of clashes between teams over all
+- See the history of clashes between teams in on a specific map
+- Day of the matches
+- Live data of the match
 
--
--
--
 ## Deployment
- 
-## Files & directories
 
-## Credits
+#### Make the download of the zip archive and Open the index.html 
+
+## Screenshots
+
+![markdownscreenshot](https://user-images.githubusercontent.com/60366579/172230392-e5ba2330-1ef5-4537-ad87-c8a9c64fc352.png)
+
+
+
+                                                             Copyright © 2022 hlpires
