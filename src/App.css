@@ -68,11 +68,13 @@ align-items: center;
  justify-content: center;
 
 
+
 }
 .header{
 display: flex;
 position: fixed;
 width: 100%;
+z-index: 100;
 }
 .Art{
     width: 500px;
@@ -184,6 +186,47 @@ justify-content: center;
 .csimage{
     width: 50px!important;
 }
+.teamfilter{
+    width: 400px;
+    align-self: center;
+    margin-right: 1400px;
+    margin-top: 300px;
+    height: 200px;
+    
+    position: absolute;
+    z-index: 1;
+   
+}
+.teamselect{
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    height: 30%;
+}
+#myInput {
+    background-image: url(''); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%;
+    height: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  .lista{
+      background-color: white;
+      padding: 10px;
+      list-style: none;
+      cursor: pointer;
+      
+  }
+  .lista:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 10px;
+}
+
+
 
 }
 @media screen and (max-width:1400px) and (min-width:1025px){

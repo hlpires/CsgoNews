@@ -1,29 +1,19 @@
 import React from 'react'
 import {Routes,Route, Link} from 'react-router-dom';
 import {Layout, Typography, Space} from 'antd';
-import {Navbar,CsgoBala,Art,Home,Header,Noticias} from './components';
+import {Navbar,CsgoBala,Art,Home,Header,Noticias,Teamfilter} from './components';
 
 import './App.css';
 const App = () => {
   return (
     <div className="app">
-     <Layout>
-       <Header/>
-         
-       <Layout>
-        <div className='main'>
-          <div className='navbar'></div>         
-        </div>
-        <Noticias/>
-        <Art/>
+      <Layout>
+         <Header/>
+         <Layout>
+           <Teamfilter/>
+           <Home/>
+         </Layout>  
         
-        <Home/>
-        
-
-        </Layout>
-        
-
-
         <div className='footer'>
           <Typography level = {5} style= {{color:"white",textAlign:"center"}}>
           CsgoBala <br/>
