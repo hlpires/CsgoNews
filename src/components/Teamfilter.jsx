@@ -17,7 +17,7 @@ setNames(val.target.value)
   return (
     <div className = 'teamfilter'>
         <div className = 'teamselect'>
-        <input type="text" id="myInput" onChange={myTeam} placeholder="Search for names.."></input>
+        <input type="text" id="myInput" onChange={myTeam} placeholder="Pesquise Times"></input>
 
           <div>
             {lista.filter(name => name.includes(names)).map(filteredName => (
