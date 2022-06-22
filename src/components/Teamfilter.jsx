@@ -17,7 +17,7 @@ setNames(val.target.value)
 function timeescolido (elemento){
 console.log(elemento.currentTarget.textContent)
 setTime(elemento.currentTarget.textContent)
-setNames('null')
+setNames('*')
 }
 
 
@@ -25,7 +25,9 @@ setNames('null')
   return (
     <div className = 'teamfilter'>
         <div className = 'teamselect'>
-        <input type="text" id="myInput" onChange={myTeam} placeholder="Pesquise Times" value={time}></input>
+        <input type="text" id="myInput" onChange={myTeam} placeholder="Pesquise Times" value={time}>          
+        </input>
+        <button className = 'clear'></button>
 
           <div>
             {lista.filter(name => name.includes(names)).map(filteredName => (
