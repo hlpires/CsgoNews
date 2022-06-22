@@ -28,7 +28,7 @@ setNames('*')
         <input type="text" id="myInput" onChange={myTeam} placeholder="Pesquise Times" value={time}>          
         </input>
         <button className = 'clear'></button>
-
+        </div>
           <div>
             {lista.filter(name => name.includes(names)).map(filteredName => (
             <li  className = 'lista' onClick={timeescolido}  id = '1'>
@@ -38,7 +38,7 @@ setNames('*')
             </li>))}
           </div>
         
-        </div>
+        
 
     </div>
   )
