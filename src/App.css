@@ -192,27 +192,26 @@ justify-content: center;
     margin-right: 1400px;
     margin-top: 300px;
     height: 200px;
-    
+    background-color: black;
     position: absolute;
     z-index: 1;
    
 }
 .teamselect{
-    border: 2px solid black;
+    border: 2px solid blue;
     width: 100%;
     margin-top: 10px;
     height: 30%;
+    display: flex;
 }
 #myInput {
     background-image: url(''); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 100%;
+    width: 85%;
     height: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+  
   }
   .lista{
       background-color: white;
@@ -228,9 +227,11 @@ justify-content: center;
     padding: 10px;
 }
 .clear{
-    width: 200px;
-    height: 200px;
+    padding: 12px 20px 12px 40px;
+    width: 15%;
+    height: 100%;
     background-color: red;
+ 
 }
 
 
