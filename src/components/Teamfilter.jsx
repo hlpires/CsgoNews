@@ -6,16 +6,15 @@ const Teamfilter = () => {
 // filtro de times array com multiplos times 
 const lista = ['navi','pain','spirit','imperial','MIBR'];
 const [names,setNames] = useState('null');
-
 const [time,setTime] = useState(input);
 
-
-var input 
+var input = ('')
 
 
 
 function resetvalue(){
-  input = ('')
+
+
   console.log(input)
   setTime(input)
 
