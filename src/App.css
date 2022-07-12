@@ -100,19 +100,29 @@ z-index: 100;
 .position{
     background-color: red;
     width: 1350px;
+    display: flex;
+    justify-content: center;
    
 }
 .newsformat{
 justify-content: center;
 display: flex;
 width: 100%;
+margin-top: 10%;
 
 }
 .resultadoBox{
+    
     width: 80%;
-    height: 300px;
-    background-color: grey;
+    height: 140px;
+    background-color: #2d3844;
+    border-bottom: 3px solid #87a3bf;
 
+}
+.timeVencedor{
+    width: 100%;
+    height: 50%;
+    background-color:yellow;
 }
 
 
