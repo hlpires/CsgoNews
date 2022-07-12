@@ -18,7 +18,7 @@ const Home = () => {
   const imagem2 = [data?.data?.[0]?.team_lose?.image_url,data?.data?.[1]?.team_lose?.image_url,data?.data?.[2]?.team_lose?.image_url,data?.data?.[3]?.team_lose?.image_url,data?.data?.[4]?.team_lose?.image_url]
   const vencedor = [data?.data?.[0]?.team_won?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_won?.title]
   const datajogo = [data?.data?.[0]?.played_at,data?.data?.[1]?.played_at,data?.data?.[2]?.played_at,data?.data?.[3]?.played_at,data?.data?.[4]?.played_at]
-  const nacionalidadeV =[];
+  const nacionalidadeV =[data?.data?.[0]?.team_won_country?.image_url];
   const nacionalidadeL =[];
 
 
@@ -39,7 +39,9 @@ const Home = () => {
       <div className = 'position'>
         <div className = 'resultadoBox'>
           <div className ='timeVencedor'>
-            <div className ='bandeira'></div>
+            <div className ='bandeira'>
+              <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
+            </div>
           <img  className ="imageteam"  src={imagem[0]} alt="" />
           </div>
           <div className = 'timePerdedor'></div>
