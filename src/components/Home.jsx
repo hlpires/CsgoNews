@@ -18,11 +18,12 @@ const Home = () => {
   const imagem2 = [data?.data?.[0]?.team_lose?.image_url,data?.data?.[1]?.team_lose?.image_url,data?.data?.[2]?.team_lose?.image_url,data?.data?.[3]?.team_lose?.image_url,data?.data?.[4]?.team_lose?.image_url]
   const vencedor = [data?.data?.[0]?.team_won?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_won?.title]
   const datajogo = [data?.data?.[0]?.played_at,data?.data?.[1]?.played_at,data?.data?.[2]?.played_at,data?.data?.[3]?.played_at,data?.data?.[4]?.played_at]
-  
+  const nacionalidadeV =[];
+  const nacionalidadeL =[];
 
 
 
-  console.log(datajogo);
+  console.log(data);
 
   if( isFetching){
     return "loading..."
@@ -37,11 +38,14 @@ const Home = () => {
     <div className = 'newsformat'>
       <div className = 'position'>
         <div className = 'resultadoBox'>
-          <div className ='timeVencedor'></div>
-          <div className = 'timePerdedor'></div>
+          <div className ='timeVencedor'>
           <img  className ="imageteam"  src={imagem[0]} alt="" />
-          <div span = {3} ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1> </div>
+          </div>
+          <div className = 'timePerdedor'></div>
           <img className ="imageteam" src={imagem2[0]} alt="" />
+
+          <div span = {3} ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1> </div>
+          
         </div>
       </div>
     </div>
