@@ -17,9 +17,10 @@ const Home = () => {
   const imagem = [data?.data?.[0].team_won?.image_url,data?.data?.[1].team_won?.image_url,data?.data?.[2].team_won?.image_url,data?.data?.[3].team_won?.image_url,data?.data?.[4].team_won?.image_url]
   const imagem2 = [data?.data?.[0]?.team_lose?.image_url,data?.data?.[1]?.team_lose?.image_url,data?.data?.[2]?.team_lose?.image_url,data?.data?.[3]?.team_lose?.image_url,data?.data?.[4]?.team_lose?.image_url]
   const vencedor = [data?.data?.[0]?.team_won?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_won?.title]
+  const perdedorn =  [data?.data?.[0]?.team_lose?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_lose?.title]
   const datajogo = [data?.data?.[0]?.played_at,data?.data?.[1]?.played_at,data?.data?.[2]?.played_at,data?.data?.[3]?.played_at,data?.data?.[4]?.played_at]
   const nacionalidadeV =[data?.data?.[0]?.team_won_country?.image_url];
-  const nacionalidadeL =[];
+  const nacionalidadeL =[data?.data?.[0]?.team_lose_country?.image_url];
 
 
 
@@ -45,17 +46,14 @@ const Home = () => {
           
           <div className = 'timeVname'><h1>{vencedor[0]}</h1></div>
           <img  className ="imageteam"  src={imagem[0]} alt="" />
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className='resultado' ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1></div>
+          <img  className ="imageteam"  src={imagem2[3]} alt="" />
+          <div className = 'timeVname'><h1>{perdedorn[0]}</h1></div>
+          <div className ='bandeira'>
+              <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
           </div>
-          <div className = 'timePerdedor'></div>
-            <div className =''></div>
-          <img className ="imageteam" src={imagem2[0]} alt="" />
-
-          <div span = {3} ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1> </div>
-          
+          </div>
+         
         </div>
       </div>
     </div>
