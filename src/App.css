@@ -136,6 +136,19 @@ margin-top: 10%;
     width: 100%;
     height: 100%;
 }
+.timeVname{
+    width: 40%;
+    align-items: center;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    float: left;
+}
+.imageteam{
+    height: 100%;
+    width: 10%;
+  
+}
 
 
 

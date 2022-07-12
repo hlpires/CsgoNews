@@ -42,6 +42,8 @@ const Home = () => {
             <div className ='bandeira'>
               <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
             </div>
+          
+          <div className = 'timeVname'>{vencedor}</div>
           <img  className ="imageteam"  src={imagem[0]} alt="" />
           </div>
           <div className = 'timePerdedor'></div>
