@@ -126,6 +126,20 @@ z-index: 100;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.15) 20.95px 20.95px 2.6px;
 }
+.teste{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: red;
+    padding: 200px;
+}
+.data{
+background-color: yellow;
+
+display: flex;
+margin-right: 10%;
+
+}
 .noticiasimage{
     width: 350px;
     height: 140px;
