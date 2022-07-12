@@ -35,11 +35,13 @@ const Home = () => {
 
 
     <div className = 'newsformat'>
+      <div className = 'position'>
     
         <img  className ="imageteam"  src={imagem[0]} alt="" />
 
         <div span = {3} ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1> </div>
-        <img className ="imageteam" src={imagem2[0]} alt="" />   
+        <img className ="imageteam" src={imagem2[0]} alt="" />
+        </div>
       </div>
       
       
