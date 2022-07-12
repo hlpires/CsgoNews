@@ -39,9 +39,11 @@ const Home = () => {
       <div className = 'position'>
         <div className = 'resultadoBox'>
           <div className ='timeVencedor'>
+            <div className ='bandeira'></div>
           <img  className ="imageteam"  src={imagem[0]} alt="" />
           </div>
           <div className = 'timePerdedor'></div>
+            <div className =''></div>
           <img className ="imageteam" src={imagem2[0]} alt="" />
 
           <div span = {3} ><h1 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h1> </div>

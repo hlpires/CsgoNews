@@ -123,6 +123,14 @@ margin-top: 10%;
     width: 100%;
     height: 50%;
     background-color:yellow;
+    
+}
+.bandeira{
+    width:10%;
+    float: left;
+    height: 100%;
+    background-color: blue;
+
 }
 
 
