@@ -98,9 +98,8 @@ z-index: 100;
 
 }
 .position{
-
     width: 1350px;
-    display: flex;
+    display:block;
     justify-content: center;
    
 }
@@ -114,10 +113,14 @@ height: 1000px;
 
 }
 .resultadoBox{
-    
+    margin-top: 05%;
     width: 80%;
     height: 140px;
     background-color: #2d3844;
+    margin-left: 10%;
+  
+   
+
 
 
 }
