@@ -5,6 +5,7 @@
    --pink: #0071bd;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
+  
 }
 
 * {
@@ -20,6 +21,7 @@ a:hover{
 .app{
     display: flex;
     overflow: hidden;
+    background-color: #1b1f23;
 }
 
 .navbar{
@@ -101,7 +103,16 @@ z-index: 100;
     width: 1350px;
     display:block;
     justify-content: center;
+    background-color: black;
+ 
+    
    
+}
+.resultadoP{
+    background-color: red;
+    float: right;
+    width: 70%;
+    height: 100%;
 }
 .newsformat{
 justify-content: center;
@@ -113,11 +124,12 @@ height: 1000px;
 
 }
 .resultadoBox{
+    
     margin-top: 5%;
-    width: 80%;
+    width: 60%;
     height: 140px;
     background-color: #2d3844;
-    margin-left: 10%;
+    margin-left: 20%;
   
    
 
@@ -171,6 +183,7 @@ height: 1000px;
     align-self: center;
     height: 80%;
     width: 80%;
+   
 
     float: left;
   
@@ -211,24 +224,24 @@ h2{
 
 .logo{
     height: 100%;
-    width: 10%;
-    
+    width: 20%;
+  
     justify-content: center;
     display: flex;
     opacity: 20%;
  
 }
 #logo1{
-    margin-right:-15%;
+    margin-right:-18%;
    
 }
 #logo2{
-    margin-left:-15%;
+    margin-left:-18%;
    
 }
 #bandeira1{
-    margin-left: 50%;
-    border: 2px solid red;
+    margin-left: 30%;
+   
 }
 
 

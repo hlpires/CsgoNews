@@ -37,7 +37,9 @@ const Home = () => {
 
 
     <div className = 'newsformat'>
+    
       <div className = 'position'>
+        <div className = 'resultadoP' >
         <div className = 'resultadoBox'>
          <div className ='timeVencedor'>
          
@@ -71,6 +73,7 @@ const Home = () => {
             </div>
          </div> 
          
+        </div>
         </div>
       </div>
     </div>
