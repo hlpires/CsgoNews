@@ -40,18 +40,36 @@ const Home = () => {
       <div className = 'position'>
         <div className = 'resultadoBox'>
          <div className ='timeVencedor'>
-          <div className ='bandeira'>
+         
+          <div className = 'timeVname'>
             <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
+            <h3>{vencedor[0]}</h3>
           </div>
-          <div className = 'timeVname'><h3>{vencedor[0]}</h3></div>
-          <div className ='logo'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
-          <div className = 'timeVname'><h3>{perdedorn[0]}</h3></div>
-          <div className ='bandeira'>
-              <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className = 'timeVname'>
+            <h3>{perdedorn[0]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            </div>
+         </div> 
+         
+        </div>
+        <div className = 'resultadoBox'>
+         <div className ='timeVencedor'>
+         
+          <div className = 'timeVname'>
+            <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
+            <h3>{vencedor[0]}</h3>
           </div>
-         </div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
+          <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className = 'timeVname'>
+            <h3>{perdedorn[0]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            </div>
+         </div> 
          
         </div>
       </div>
