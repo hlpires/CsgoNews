@@ -10,10 +10,9 @@ import { useGetNewsQuery } from '../services/csnewsApi'
 
 
 
-var numerodejogos; 
-
 
 const Home = () => {
+
 
 
 
@@ -74,9 +73,10 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[0]} alt=""/>
             <h3>{vencedor[0]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
+          
+          <div className ='logo' id = 'logo1'><img  className ="imageteam" id='0' onError={() =>{document.getElementById("0").style.display='none'}}  src={imagem[0]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[0]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam" id='3' onError={() =>{document.getElementById("3").style.display='none'}} src={imagem2[0]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[0]}</h3>
             <img className='bandeiraImg' src={nacionalidadeL[0]} alt=""/>
@@ -91,9 +91,9 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[1]} alt=""/>
             <h3>{vencedor[1]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img onerror="this.style.display='none'" className ="imageteam"  src={imagem[1]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img className ="imageteam" id='1' onError={() =>{document.getElementById("1").style.display='none'}}  src={imagem[1]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[1] + ' x ' + perdedor[1]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[1]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam" id='4' onError={() =>{document.getElementById("4").style.display='none'}} src={imagem2[1]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[1]}</h3>
             <img className='bandeiraImg' src={nacionalidadeL[1]} alt=""/>
@@ -109,9 +109,9 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[2]} alt=""/>
             <h3>{vencedor[2]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[2]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam" id='5' onError={() =>{document.getElementById("5").style.display='none'}} src={imagem[2]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[2] + ' x ' + perdedor[2]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[2]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam" id='6' onError={() =>{document.getElementById("6").style.display='none'}} src={imagem2[2]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[2]}</h3>
             <img className='bandeiraImg' src={nacionalidadeL[2]} alt=""/>
@@ -128,9 +128,9 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[3]} alt=""/>
             <h3>{vencedor[3]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[3]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam" id='7' onError={() =>{document.getElementById("7").style.display='none'}} src={imagem[3]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[3] + ' x ' + perdedor[3]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam" id='8' onError={() =>{document.getElementById("8").style.display='none'}} src={imagem2[3]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[3]}</h3>
             <img className='bandeiraImg' src={nacionalidadeL [3]} alt=""/>
@@ -147,9 +147,9 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[4]} alt=""/>
             <h3>{vencedor[4]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[4]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam" id='9' onError={() =>{document.getElementById("9").style.display='none'}} src={imagem[4]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[4] + ' x ' + perdedor[4]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[4]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam" id='10' onError={() =>{document.getElementById("10").style.display='none'}} src={imagem2[4]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[4]}</h3>
             <img className='bandeiraImg' src={nacionalidadeL[4]} alt=""/>
