@@ -23,7 +23,7 @@ body {
 a:hover{
     color: var(--pink) !important;
 }
-@media screen and (min-width:1401px){
+@media (min-width:1301px){
 
 .app{
     display: flex;
@@ -133,10 +133,11 @@ margin-top: 10%;
 .resultadoBox{
     
     margin-top: 5%;
-    width: 100%;
+    width: 90%;
+    margin-left: 10%;
     height: 140px;
     background-color: #2d3844;
-    margin-left: 10%;
+    
 
 }
 .timeVencedor{
@@ -303,3 +304,284 @@ h5{
 
 
 }
+@media (min-width: 600px) and (max-width:1099px){
+
+    .app{
+        display: flex;
+        overflow: hidden;
+        background-color: #1b1f23;
+        height: 100%;
+    }
+    
+    .navbar{
+        flex: 0.2;
+        background-color: rgb(0, 21, 41);
+    }
+    
+    .main{
+        flex: 0.8;
+        width: 100%;
+        
+    }
+    .routes{
+        padding: 20px;
+    }
+    
+    .csgoimage{
+        width: 80px;
+        
+    }
+    .headerText{
+        display:flex;
+        color: white;
+        width: 665px;
+        
+        
+        margin-left: 50px;
+        
+    }
+    
+    
+    
+    .headericons{
+        padding: 10px;
+        height: 50px;
+    
+       
+      
+    }
+    .headeritems{
+    align-items: center;
+     display: flex;
+     height: 120px;
+     background-color: black;
+     width: 100%;
+     justify-content: center;
+    
+    
+    
+    }
+    .header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    }
+    .Art{
+        width: 500px;
+        height: 800px;
+        left: 0;
+        margin-left: 20px;
+        position: fixed;
+        margin-top: 140px;
+      
+    }
+    .textHeader{
+        color: white;
+        
+    
+    }
+    .subtextHeader{
+        color: white;
+       margin-left: -115px;
+        margin-top: 30px;
+        font-size: 9px;
+    
+    }
+    .position{
+        width: 1350px;
+        display:block;
+        justify-content: center;
+        
+     
+        
+       
+    }
+    .resultadoP{
+        
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+    .newsformat{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    
+    
+    }
+    .resultadoBox{
+        
+        margin-top: 5%;
+        width: 100%;
+        height: 140px;
+        background-color: #2d3844;
+        margin-left: 10%;
+    
+    }
+    .timeVencedor{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-bottom: 3px solid #87a3bf;
+        justify-content: center;
+        
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+       
+        
+        
+    }
+    .bandeira{
+     
+     
+     
+        height: 100%;
+        align-self: center;
+        display: flex;
+    
+        
+    
+    }
+    .bandeiraImg{
+        margin-top: 6%;
+        width: 20%;
+        
+      
+    
+        align-self: center;
+        height: 25%;
+    
+    }
+    .timeVname{
+        width: 32%;
+       
+        height: 100%;
+        
+        display: flex;
+        
+        
+    }
+    .imageteam{
+        align-self: center;
+        height: 80%;
+        width: 80%;
+     
+       
+    
+        float: left;
+      
+    }
+    h3{
+        align-content: center;
+        display: flex;
+        height: 35%;
+        font-size: 180%;
+        color: #87a3bf!important;
+        margin:5%;
+        margin-top: 9%!important;
+        align-self: center;
+        
+    
+       
+       
+    }
+    h2{
+        
+        width: 100%;
+        height: 35%;
+        font-size: 200%;
+        margin-top: 10.5%!important;
+        text-align: center;
+        
+    }
+    .resultado{
+        height: 100%;
+        width: 35%;
+        align-items: center;
+        display: flex;
+    
+     
+        
+    }
+    
+    
+    .logo{
+        height: 100%;
+        width: 20%;
+      
+        justify-content: center;
+        display: flex;
+        opacity: 20%;
+     
+    }
+    #logo1{
+        margin-right:-18%;
+       
+    }
+    #logo2{
+        margin-left:-18%;
+       
+    }
+    #bandeira1{
+        margin-left: 30%;
+       
+    }
+    .leaderboardP{
+        
+        width: 30%;
+        height: 100%;
+        display: flex;
+        float: left;
+        z-index: 1;
+        
+    }
+    .leaderboard{
+        position: relative;
+        width: 100%;
+        height: 30%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        margin-top: 11.5%;
+      
+     
+    }
+    .timesLeaderboard{
+        width: 100%;
+        height: 20%;
+        background-color: #2d3844;
+        border-bottom: 1px solid #87a3bf;
+        display: flex;
+        
+    }
+    .leaderboardTittle{
+        
+        width: 100%;
+        height: 10%;
+        font-size: 170%;
+        text-align: center;
+        color: #87a3bf;
+    }
+    .leaderbordImg{
+        margin-top: 1%;
+        width: 17%;
+        float: left;
+        height: 80%;
+       
+    }
+    h5{
+        align-self: center!important;
+        float: right;
+        width: 50%;
+        font-size: 140%;
+        
+        color: white!important;
+        margin-left: 5%;
+    }
+    
+    
+    
+    
+    }
+    
