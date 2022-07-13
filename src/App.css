@@ -154,8 +154,8 @@ margin-top: 10%;
 }
 .imageteam{
     align-self: center;
-    height: 60%;
-    width: 10%;
+    height: 50%;
+    width: 100%;
 
     float: left;
   
@@ -188,6 +188,12 @@ h2{
     display: flex;
     
     float: left;
+    
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    background-color: red;
 }
 
 

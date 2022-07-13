@@ -44,9 +44,9 @@ const Home = () => {
             <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
           </div>
           <div className = 'timeVname'><h3>{vencedor[0]}</h3></div>
-          <img  className ="imageteam"  src={imagem[0]} alt="" />
+          <div className ='logo'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <img  className ="imageteam"  src={imagem2[3]} alt="" />
+          <div className ='logo'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
           <div className = 'timeVname'><h3>{perdedorn[0]}</h3></div>
           <div className ='bandeira'>
               <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
