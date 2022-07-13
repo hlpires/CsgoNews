@@ -40,7 +40,24 @@ const Home = () => {
     
       <div className = 'position'>
         <div className ='leaderboardP'>
-          <div classname = 'leaderboard'></div>
+           <div className = 'leaderboard'>
+             <h4 className = 'leaderboardTittle'></h4>
+             <div className ='timesLeaderboard'>
+               <img src="" alt="" /> <h5></h5>
+             </div>
+             <div className ='timesLeaderboard'>
+               <img src="" alt="" /> <h5></h5>
+             </div>
+             <div className ='timesLeaderboard'>
+               <img src="" alt="" /> <h5></h5>
+             </div>
+             <div className ='timesLeaderboard'>
+               <img src="" alt="" /> <h5></h5>
+             </div>
+             <div className ='timesLeaderboard'>
+               <img src="" alt="" /> <h5></h5>
+             </div>
+           </div>
         </div>
         <div className = 'resultadoP' >
         <div className = 'resultadoBox'>

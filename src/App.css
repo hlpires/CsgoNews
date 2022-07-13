@@ -130,10 +130,6 @@ height: 1000px;
     height: 140px;
     background-color: #2d3844;
     margin-left: 10%;
-  
-   
-
-
 
 }
 .timeVencedor{
@@ -247,8 +243,27 @@ h2{
     background-color: green;
     width: 30%;
     height: 100%;
+    display: flex;
     float: left;
-    z-index: 99;
+    z-index: 1;
+    
+}
+.leaderboard{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+ 
+}
+.timesLeaderboard{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border: 2px solid red;
+}
+.leaderboardTittle{
+    width: 100%;
+    height: 10%;
 }
 
 
