@@ -611,6 +611,7 @@ h5{
         }
         
         .csgoimage{
+            margin-left: 20px;
             width: 80px;
             
         }
@@ -654,7 +655,7 @@ h5{
             width: 500px;
             height: 800px;
             left: 0;
-            margin-left: 20px;
+            margin-left: 100px;
             position: fixed;
             margin-top: 140px;
           
@@ -702,6 +703,7 @@ h5{
             height: 140px;
             background-color: #2d3844;
             margin-left: 5vw;
+            margin-bottom: 5%;
         
         }
         .timeVencedor{
@@ -730,8 +732,8 @@ h5{
         
         }
         .bandeiraImg{
-            margin-top: 6%;
-            width: 30%;
+            margin-top: 2%;
+            width: 25%;
             
           
         
@@ -750,7 +752,7 @@ h5{
         }
         .imageteam{
             align-self: center;
-            height: 80%;
+            height: 60%;
             width: 80%;
          
            
@@ -762,7 +764,7 @@ h5{
             align-content: center;
             display: flex;
             height: 35%;
-            font-size: 150%;
+            font-size: 100%;
             color: #87a3bf!important;
             margin:5%;
             margin-top: 30%!important;
