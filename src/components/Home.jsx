@@ -39,6 +39,9 @@ const Home = () => {
     <div className = 'newsformat'>
     
       <div className = 'position'>
+        <div className ='leaderboardP'>
+          <div classname = 'leaderboard'></div>
+        </div>
         <div className = 'resultadoP' >
         <div className = 'resultadoBox'>
          <div className ='timeVencedor'>

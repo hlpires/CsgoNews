@@ -126,10 +126,10 @@ height: 1000px;
 .resultadoBox{
     
     margin-top: 5%;
-    width: 60%;
+    width: 80%;
     height: 140px;
     background-color: #2d3844;
-    margin-left: 20%;
+    margin-left: 10%;
   
    
 
@@ -242,6 +242,13 @@ h2{
 #bandeira1{
     margin-left: 30%;
    
+}
+.leaderboardP{
+    background-color: green;
+    width: 30%;
+    height: 100%;
+    float: left;
+    z-index: 99;
 }
 
 
