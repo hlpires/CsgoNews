@@ -15,6 +15,9 @@ var numerodejogos;
 
 const Home = () => {
 
+
+
+
   const {data, isFetching} = useGetNewsQuery();
   const vitoria = [data?.data?.[0]?.score_won,data?.data?.[1]?.score_won,data?.data?.[2]?.score_won,data?.data?.[3]?.score_won,data?.data?.[4]?.score_won]
   const perdedor = [data?.data?.[0]?.score_lose,data?.data?.[1]?.score_lose,data?.data?.[2]?.score_lose,data?.data?.[3]?.score_lose,data?.data?.[4]?.score_lose,]
@@ -88,7 +91,7 @@ const Home = () => {
             <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[1]} alt=""/>
             <h3>{vencedor[1]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[1]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img onerror="this.style.display='none'" className ="imageteam"  src={imagem[1]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[1] + ' x ' + perdedor[1]} </h2></div>
           <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[1]} alt="" /></div>
           <div className = 'timeVname'>
