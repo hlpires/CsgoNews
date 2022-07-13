@@ -42,7 +42,7 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
             <h3>{vencedor[0]}</h3>
           </div>
           <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
@@ -59,7 +59,7 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' src={nacionalidadeV} alt=""/>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
             <h3>{vencedor[0]}</h3>
           </div>
           <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
