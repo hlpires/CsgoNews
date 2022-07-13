@@ -7,6 +7,12 @@
    --border: #d9d9d9;
   
 }
+body {
+    margin:0;
+    padding:0;
+    background-color: #1b1f23!important;
+    
+}
 
 * {
     margin: 0;
@@ -18,10 +24,12 @@ a:hover{
     color: var(--pink) !important;
 }
 @media screen and (min-width:1401px){
+
 .app{
     display: flex;
     overflow: hidden;
     background-color: #1b1f23;
+    height: 100%;
 }
 
 .navbar{
@@ -120,13 +128,12 @@ display: flex;
 width: 100%;
 margin-top: 10%;
 
-height: 1000px;
 
 }
 .resultadoBox{
     
     margin-top: 5%;
-    width: 80%;
+    width: 100%;
     height: 140px;
     background-color: #2d3844;
     margin-left: 10%;
@@ -188,7 +195,7 @@ h3{
     align-content: center;
     display: flex;
     height: 35%;
-    font-size: 210%;
+    font-size: 180%;
     color: #87a3bf!important;
     margin:5%;
     margin-top: 9%!important;

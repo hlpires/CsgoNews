@@ -23,8 +23,8 @@ const Home = () => {
   const vencedor = [data?.data?.[0]?.team_won?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_won?.title]
   const perdedorn =  [data?.data?.[0]?.team_lose?.title,data?.data?.[1]?.team_won?.title,data?.data?.[2]?.team_won?.title,data?.data?.[3]?.team_won?.title,data?.data?.[4]?.team_lose?.title]
   const datajogo = [data?.data?.[0]?.played_at,data?.data?.[1]?.played_at,data?.data?.[2]?.played_at,data?.data?.[3]?.played_at,data?.data?.[4]?.played_at]
-  const nacionalidadeV =[data?.data?.[0]?.team_won_country?.image_url];
-  const nacionalidadeL =[data?.data?.[0]?.team_lose_country?.image_url];
+  const nacionalidadeV =[data?.data?.[0]?.team_won_country?.image_url,data?.data?.[1]?.team_won_country?.image_url,data?.data?.[2]?.team_won_country?.image_url,data?.data?.[3]?.team_won_country?.image_url,data?.data?.[4]?.team_won_country?.image_url];
+  const nacionalidadeL =[data?.data?.[0]?.team_lose_country?.image_url,data?.data?.[1]?.team_lose_country?.image_url,data?.data?.[2]?.team_lose_country?.image_url,data?.data?.[3]?.team_lose_country?.image_url,data?.data?.[4]?.team_lose_country?.image_url];
 
 
 
@@ -68,15 +68,15 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[0]} alt=""/>
             <h3>{vencedor[0]}</h3>
           </div>
           <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
           <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[0]} alt="" /></div>
           <div className = 'timeVname'>
             <h3>{perdedorn[0]}</h3>
-            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            <img className='bandeiraImg' src={nacionalidadeL[0]} alt=""/>
             </div>
          </div> 
          
@@ -85,15 +85,15 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
-            <h3>{vencedor[0]}</h3>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[1]} alt=""/>
+            <h3>{vencedor[1]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
-          <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[1]} alt="" /></div>
+          <div className='resultado' ><h2 className = 'versus' > {vitoria[1] + ' x ' + perdedor[1]} </h2></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[1]} alt="" /></div>
           <div className = 'timeVname'>
-            <h3>{perdedorn[0]}</h3>
-            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            <h3>{perdedorn[1]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL[1]} alt=""/>
             </div>
          </div> 
          
@@ -103,34 +103,15 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
-            <h3>{vencedor[0]}</h3>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[2]} alt=""/>
+            <h3>{vencedor[2]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
-          <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[2]} alt="" /></div>
+          <div className='resultado' ><h2 className = 'versus' > {vitoria[2] + ' x ' + perdedor[2]} </h2></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[2]} alt="" /></div>
           <div className = 'timeVname'>
-            <h3>{perdedorn[0]}</h3>
-            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
-            </div>
-         </div> 
-         
-        </div>
-
-
-        <div className = 'resultadoBox'>
-         <div className ='timeVencedor'>
-         
-          <div className = 'timeVname'>
-            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
-            <h3>{vencedor[0]}</h3>
-          </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
-          <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
-          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
-          <div className = 'timeVname'>
-            <h3>{perdedorn[0]}</h3>
-            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            <h3>{perdedorn[2]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL[2]} alt=""/>
             </div>
          </div> 
          
@@ -141,15 +122,34 @@ const Home = () => {
          <div className ='timeVencedor'>
          
           <div className = 'timeVname'>
-            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV} alt=""/>
-            <h3>{vencedor[0]}</h3>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[3]} alt=""/>
+            <h3>{vencedor[3]}</h3>
           </div>
-          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[0]} alt="" /></div>
-          <div className='resultado' ><h2 className = 'versus' > {vitoria[0] + ' x ' + perdedor[0]} </h2></div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[3]} alt="" /></div>
+          <div className='resultado' ><h2 className = 'versus' > {vitoria[3] + ' x ' + perdedor[3]} </h2></div>
           <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[3]} alt="" /></div>
           <div className = 'timeVname'>
-            <h3>{perdedorn[0]}</h3>
-            <img className='bandeiraImg' src={nacionalidadeL} alt=""/>
+            <h3>{perdedorn[3]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL [3]} alt=""/>
+            </div>
+         </div> 
+         
+        </div>
+
+
+        <div className = 'resultadoBox'>
+         <div className ='timeVencedor'>
+         
+          <div className = 'timeVname'>
+            <img className='bandeiraImg' id ='bandeira1'src={nacionalidadeV[4]} alt=""/>
+            <h3>{vencedor[4]}</h3>
+          </div>
+          <div className ='logo' id = 'logo1'><img  className ="imageteam"  src={imagem[4]} alt="" /></div>
+          <div className='resultado' ><h2 className = 'versus' > {vitoria[4] + ' x ' + perdedor[4]} </h2></div>
+          <div className ='logo' id = 'logo2'><img  className ="imageteam"  src={imagem2[4]} alt="" /></div>
+          <div className = 'timeVname'>
+            <h3>{perdedorn[4]}</h3>
+            <img className='bandeiraImg' src={nacionalidadeL[4]} alt=""/>
             </div>
          </div> 
          
