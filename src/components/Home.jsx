@@ -1,6 +1,10 @@
 import React from 'react'
 import {millify} from 'millify'
-
+import navi from '../images/navi.png'
+import cloud9 from '../images/cloud9.png'
+import vitality from '../images/vitality.png'
+import ence from '../images/ence.png'
+import faze from '../images/faze.png'
 
 import { useGetNewsQuery } from '../services/csnewsApi'
 
@@ -41,21 +45,21 @@ const Home = () => {
       <div className = 'position'>
         <div className ='leaderboardP'>
            <div className = 'leaderboard'>
-             <h4 className = 'leaderboardTittle'></h4>
+             <h4 className = 'leaderboardTittle'>Ranking do campeonato</h4>
              <div className ='timesLeaderboard'>
-               <img src="" alt="" /> <h5></h5>
+               <img className='leaderbordImg' src={navi} alt="" /> <h5>Natus Vincere</h5>
              </div>
              <div className ='timesLeaderboard'>
-               <img src="" alt="" /> <h5></h5>
+               <img className='leaderbordImg'  src={faze} alt="" /> <h5>Faze</h5>
              </div>
              <div className ='timesLeaderboard'>
-               <img src="" alt="" /> <h5></h5>
+               <img  className='leaderbordImg'  src={ence} alt="" /> <h5>Ence</h5>
              </div>
              <div className ='timesLeaderboard'>
-               <img src="" alt="" /> <h5></h5>
+               <img  className='leaderbordImg'  src={cloud9} alt="" /> <h5>Cloud9</h5>
              </div>
              <div className ='timesLeaderboard'>
-               <img src="" alt="" /> <h5></h5>
+               <img className='leaderbordImg'  src={vitality} alt="" /> <h5>Vitality</h5>
              </div>
            </div>
         </div>
