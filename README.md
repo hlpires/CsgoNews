@@ -1,6 +1,6 @@
 # Hora da Bet
 
-![cslogo](https://user-images.githubusercontent.com/60366579/179527516-2a15f63b-90d9-495b-96c4-6b837523368b.png)
+![markdown](https://user-images.githubusercontent.com/60366579/179527964-1af7b734-92e0-46de-8009-454242944df4.png)
 
 
 
@@ -29,7 +29,7 @@ A website who the user will be able to:
 
 ## Screenshots
 
-![markdownscreenshot](https://user-images.githubusercontent.com/60366579/172230392-e5ba2330-1ef5-4537-ad87-c8a9c64fc352.png)
+
 
 
 
