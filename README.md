@@ -1,4 +1,4 @@
-# Hora da Bet
+# E-sportsnews
 
 ![markdown](https://user-images.githubusercontent.com/60366579/179527964-1af7b734-92e0-46de-8009-454242944df4.png)
 
