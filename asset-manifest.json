@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CsgoNews/static/css/main.64fd6de8.css",
-    "main.js": "/CsgoNews/static/js/main.b7771e56.js",
+    "main.css": "/CsgoNews/static/css/main.4bb7643f.css",
+    "main.js": "/CsgoNews/static/js/main.5e02c09e.js",
     "static/media/cslogo.png": "/CsgoNews/static/media/cslogo.efefa9639af453180a2a.png",
     "static/media/navi.png": "/CsgoNews/static/media/navi.0376564cafc7d334e831.png",
     "static/media/cloud9.png": "/CsgoNews/static/media/cloud9.de3b276c204a3654a7ed.png",
     "static/media/ence.png": "/CsgoNews/static/media/ence.1d14cdaf6173e06f5c37.png",
     "static/media/vitality.png": "/CsgoNews/static/media/vitality.7bbe336aad930c5109b9.png",
     "index.html": "/CsgoNews/index.html",
-    "main.64fd6de8.css.map": "/CsgoNews/static/css/main.64fd6de8.css.map",
-    "main.b7771e56.js.map": "/CsgoNews/static/js/main.b7771e56.js.map"
+    "main.4bb7643f.css.map": "/CsgoNews/static/css/main.4bb7643f.css.map",
+    "main.5e02c09e.js.map": "/CsgoNews/static/js/main.5e02c09e.js.map"
   },
   "entrypoints": [
-    "static/css/main.64fd6de8.css",
-    "static/js/main.b7771e56.js"
+    "static/css/main.4bb7643f.css",
+    "static/js/main.5e02c09e.js"
   ]
 }
