@@ -17,7 +17,7 @@ A web browser for visualize the website, documents and data: Google Chrome, Appl
 ## Project Notes
 A website who the user will be able to:
 
-- Ranking of the tournament 
+- Ranking of the tournament (devoloping⚠)
 - See the history of clashes between teams over all
 - See the history of clashes between teams in on a specific map
 - Day of the matches
