@@ -1,8 +1,6 @@
 # Hora da Bet
 
-
-![markdownlogo](https://user-images.githubusercontent.com/60366579/172238499-bb034549-d39d-483a-99cc-fa070924cd89.png)
-
+![cslogo](https://user-images.githubusercontent.com/60366579/179527516-2a15f63b-90d9-495b-96c4-6b837523368b.png)
 
 
 
