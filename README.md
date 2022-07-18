@@ -17,15 +17,12 @@ A web browser for visualize the website, documents and data: Google Chrome, Appl
 ## Project Notes
 A website who the user will be able to:
 
-- See odds for betting in Counter Strike games
+- Ranking of the tournament 
 - See the history of clashes between teams over all
 - See the history of clashes between teams in on a specific map
 - Day of the matches
 - Live data of the match
 
-## Deployment
-
-#### Make the download of the zip archive and Open the index.html 
 
 ## Screenshots
 
